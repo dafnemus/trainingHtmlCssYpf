@@ -9,4 +9,100 @@
     --blue: #0451DD;
     --black: #000;
     --soft-black: #3C3C3C;
+    --ligth-blue: #00ADEE;
+    --dark-blue: #00407B;
+    --gray: #C4C4C4;
+    --gray-2: #AFAFAF;
+    --gray-footer: #455660;
+    --gray-text-footer: #808080;
+}
+body {
+    font-family: 'DIN_Medium', sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/img/background-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,1.8);
+    height: auto;
+    width: 100%;
+    color: var(--white);
+    position: relative;
+}
+
+header .contain-nav-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header h1 {
+    margin: 15px 20px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 0 20px;
+    line-height: 1.4rem;
+}
+
+header .button-add {
+    margin: 25px 20px;
+    color: var(--white);
+    background-color: var(--blue);
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 45px;
+}
+
+header .container-main-images {
+    margin-top: 50px;
+}
+
+header .contain-images {
+    display: grid;
+    grid-template-columns: 20px 68px;
+    margin: 0 20px;
+}
+
+header .contain-images .point {
+    position: relative;
+    top: calc(50% - 68px);
+}
+
+header .contain-images .imagen-1 {
+    position: absolute;
+    left: calc(50% - 72px);
+    bottom: calc(50% - 244px)
+}
+
+header .contain-images-2 {
+    display: grid;
+    grid-template-columns: 230px 77px auto 21px;
+    margin: 0 20px;
+
+}
+
+header .contain-images-2 .curve-blue {
+    position: relative;
+    top: calc(50% - 12px);
+
+}
+
+header .contain-images-2 .imagen-2 {
+    z-index: 1;
 }
