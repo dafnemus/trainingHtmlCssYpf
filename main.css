@@ -32,6 +32,7 @@ ul li {
 header {
     display: flex;
     flex-direction: column;
+    position: relative;
     filter: url('./assets/img/backgtound-header.png');
     background-repeat: no-repeat;
     background-size: 359px 756px;
@@ -39,7 +40,6 @@ header {
     height: auto;
     width: 100%;
     color: var(--white);
-    position: relative;
 }
 
 header .background {
@@ -62,7 +62,7 @@ header nav {
 
 header h1 {
     margin: 15px 20px;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 header p {
@@ -131,4 +131,31 @@ header .contain-social-media {
 header .contain-social-media img {
     padding: 10px;
     height: 40px;
+}
+
+main .main-benefits {
+    margin: 60px;
+    color: var(--soft-black)
+}
+
+main .main-benefits h2 {
+    font-size: 36px;
+}
+
+main .main-benefits .benefit {
+    margin: 20px 0;
+    padding: 14px;
+    display: grid;
+    gap: 12px;
+}
+
+main .main-benefits .benefit h3 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+
+main .main-benefits .benefit p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
 }
