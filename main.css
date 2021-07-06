@@ -139,7 +139,7 @@ main .main-benefits {
 }
 
 main .main-benefits h2 {
-    font-size: 36px;
+    font-size: 2.3rem;
 }
 
 main .main-benefits .benefit {
@@ -158,4 +158,68 @@ main .main-benefits .benefit h3 {
 main .main-benefits .benefit p {
     font-size: 1.1rem;
     line-height: 1.3rem;
+}
+
+main .main-plans {
+    overflow: hidden;
+}
+
+main .main-plans img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.05;
+    height: auto;
+}
+
+main .main-plans .title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    margin: 65px 30px 0;
+}
+
+main .main-plans p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 10px 30px;
+    color: var(--soft-black);
+}
+
+main .main-plans .contain-card-plans {
+    margin: 60px 0;
+}
+
+main .main-plans .card-plan {
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+    margin: 20px 30px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 1px 1px 10px var(--gray-2);
+}
+
+main .main-plans .card-plan img {
+    z-index: 1;
+    opacity: 2;
+    right: 0;
+    width: 160px;
+    filter: contrast(0.3);
+}
+
+.card-plan h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: start;
+    color: var(--dark-blue);
+}
+
+main .main-plans .card-plan.blue {
+    background-color: var(--dark-blue);
+    box-shadow: 2px 2px 10px var(--ligth-blue);
+}
+
+main .main-plans .card-plan.blue h2 {
+    color: var(--ligth-blue);
 }
