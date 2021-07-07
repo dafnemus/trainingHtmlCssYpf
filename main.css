@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family: 'DIN_Medium', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -33,7 +33,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    filter: url('./assets/img/backgtound-header.png');
+    filter: url('./assets/img/background-header.png');
     background-repeat: no-repeat;
     background-size: 359px 756px;
     background-color: var(--black);
@@ -139,12 +139,12 @@ main .main-benefits {
 }
 
 main .main-benefits h2 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
 }
 
 main .main-benefits .benefit {
     margin: 20px 0;
-    padding: 14px;
+    padding: 13px;
     display: grid;
     gap: 12px;
 }
@@ -156,7 +156,7 @@ main .main-benefits .benefit h3 {
 }
 
 main .main-benefits .benefit p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.3rem;
 }
 
@@ -169,6 +169,7 @@ main .main-plans img{
     z-index: -1;
     opacity: 0.05;
     height: auto;
+    width: 100%;
 }
 
 main .main-plans .title {
@@ -222,4 +223,24 @@ main .main-plans .card-plan.blue {
 
 main .main-plans .card-plan.blue h2 {
     color: var(--ligth-blue);
+}
+
+main .main-form {
+    background-color: var(--black);
+    color: var(--white);
+    overflow: hidden;
+}
+
+main .main-form .back-image-1 {
+    position: absolute;
+    margin-left: 22px;
+}
+
+main .main-form h2 {
+    font-size: 2.8rem;
+    margin: 143px 22px 10px;
+}
+
+main .main-form p {
+    margin: 0 22px;
 }
