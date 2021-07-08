@@ -1,3 +1,69 @@
+main .main-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .main-form .text {
+    margin: 0 99px;
+}
+
+main .main-form .text h2 {
+    margin: 100px 0 10px;
+}
+
+main .main-form .text p {
+    margin: 0;
+}
+
+main .main-form .background-down {
+    left: calc(100% - 661px);
+    bottom: calc(100% - 3367px);
+    gap: 300px;
+}
+
+main .main-form .background-down .back-2 {
+    height: 278px;
+    margin-top: 149px;
+    padding: 0;
+}
+
+main .main-form .form-contact {
+    margin: 100px 179px 90px 0;
+}
+
+main .form-contact textarea {
+    width: 607px;
+}
+
+
+main .main-form .form-contact input {
+    width: 297px;
+}
+
+main .main-form .form-contact .contain-catcha-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+main .form-contact .toogle {
+    gap: 22px;
+}
+
+main .main-form .form-contact .contain-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+main .form-contact .button-form {
+    position: relative;
+    left: calc(100% - 182px);
+    margin-bottom: 20px;
+}
+
 footer .footer-content {
     flex-direction: row;
     justify-content: space-between;
