@@ -1,3 +1,25 @@
+main .main-benefits {
+    margin: 134px 50px 97px 129px;
+}
+
+main .main-benefits .contain-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: baseline;
+    column-gap: 35px;
+    margin-top: 80px;
+}
+
+main .main-benefits .benefit {
+    gap: 7px;
+    padding: 0;
+}
+
+main .main-benefits .benefit h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 main .main-plans {
     text-align: center;
 }
