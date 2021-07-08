@@ -54,6 +54,10 @@ header .background {
     height: 800px;
 }
 
+header .background-header-desktop {
+    display: none;
+}
+
 header .contain-nav-logo {
     display: flex;
     justify-content: space-between;
@@ -75,9 +79,9 @@ header h1 {
 }
 
 header p {
-    margin: 0 20px;
     line-height: 1.4rem;
     padding-right: 27px;
+    margin: 27px 20px 67px;
 }
 
 header .button-add {
@@ -89,6 +93,11 @@ header .button-add {
     border-radius: 10px;
     width: 180px;
     height: 45px;
+}
+
+header .contain-portada {
+    display: flex;
+    flex-direction: column;
 }
 
 header .container-main-images {

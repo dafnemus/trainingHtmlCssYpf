@@ -1,3 +1,115 @@
+header .background {
+    display: none;
+}
+
+header .background-header-desktop {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+header .contain-nav-logo {
+    gap: 100px;
+    padding: 45px 58px;
+}
+
+header .nav-mobile {
+    display: none;
+}
+
+header .nav-desktop {
+    display: block;
+}
+
+header .nav-desktop ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+header .nav-desktop ul li a {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.nav-desktop .log-in {
+    background-color: var(--blue);
+    padding: 8px;
+    border-radius: 4px;
+    width: 129px;
+}
+
+.nav-desktop .sing-up {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 8px;
+    border-radius: 4px;
+    width: 135px;
+}
+
+header .contain-portada {
+    display: grid;
+    grid-template-columns: 550px auto;
+}
+
+header .contain-portada .text-portada {
+    margin: 76px 0px 0 73px;
+}
+
+header .container-main-images {
+    margin-left: 30px;
+}
+
+header .contain-images {
+    margin: 0;
+}
+
+header .contain-images .point {
+    width: 49.2px;
+    height: 49.2px;
+    top: calc(50% - 146px);
+}
+
+header .contain-images .imagen-1 {
+    height: 364px;
+    width: 498px;
+    bottom: calc(50% - 137px);
+    left: calc(50% - -74px);
+}
+
+header .contain-images .img-curve {
+    height: 192px;
+    width: 127px
+}
+
+header .contain-images-2 .imagen-2 {
+    height: 352px;
+    width: 336px;
+    position: relative;
+    right: 34px;
+}
+
+header .contain-images-2 .curve-blue {
+    height: 65px;
+    width: 118px;
+    top: calc(50% - 35px);
+    left: 85px;
+}
+
+header .contain-social-media {
+    justify-content: flex-end;
+    position: relative;
+    top: -197px;
+    right: 60px;
+    margin: 0;
+}
+
 main .main-benefits {
     margin: 134px 50px 97px 129px;
 }
@@ -116,7 +228,7 @@ main .main-form .text p {
 
 main .main-form .background-down {
     left: calc(100% - 661px);
-    bottom: calc(100% - 3367px);
+    bottom: calc(100% - 3002px);
     gap: 300px;
 }
 
