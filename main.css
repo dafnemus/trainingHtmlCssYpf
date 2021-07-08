@@ -177,8 +177,9 @@ main .main-plans img{
     position: absolute;
     z-index: -1;
     opacity: 0.05;
-    height: auto;
+    height: 1000px;
     width: 100%;
+    right: 0;
 }
 
 main .main-plans .title {
@@ -197,6 +198,7 @@ main .main-plans p {
 
 main .main-plans .contain-card-plans {
     margin: 60px 0;
+    position: relative;
 }
 
 main .main-plans .card-plan {
@@ -208,13 +210,16 @@ main .main-plans .card-plan {
     border-radius: 10px;
     background-color: var(--white);
     box-shadow: 1px 1px 10px var(--gray-2);
+    position: relative;
 }
 
-main .main-plans .card-plan img {
+main .main-plans .card-plan .curve {
+    position: absolute;
     z-index: 1;
     opacity: 2;
     right: 0;
     width: 160px;
+    height: 100px;
     filter: contrast(0.3);
 }
 
@@ -337,14 +342,14 @@ main .main-form .background-down {
     display: grid;
     grid-template-columns: 180px auto;
     position: absolute;
-    padding-top: 500px;
+    padding-top: 387px;
 }
 
 main .main-form .background-down .back-2 {
     height: 263px;
     width: 180px;
     padding-left: 27px;
-    padding-bottom: 36px;
+    margin-top: 28px;
 }
 
 main .main-form .background-down .back-3 {

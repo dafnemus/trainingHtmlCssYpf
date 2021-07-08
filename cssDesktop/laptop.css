@@ -1,3 +1,80 @@
+main .main-plans {
+    text-align: center;
+}
+
+main .main-plans .contain-card-plans {
+    display: flex;
+    justify-content: center;
+}
+
+main .main-plans .card-plan {
+    width: 329px;
+    flex-direction: column;
+    height: 467px;
+    align-items: flex-start;
+    padding: 30px 20px;
+}
+
+main .main-plans .card-plan img {
+    position: absolute;
+}
+
+.card-plan h2 {
+   margin: 90px 20px 0;
+}
+
+main .card-plan .desc-card {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25rem;
+    text-align: left;
+}
+
+main .card-plan .desc-card .description {
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+main .card-plan .desc-card .list {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    margin: 0;
+    margin-left: 49px;
+    color: var(--soft-black);
+}
+
+main .card-plan .desc-card button {
+    padding: 5px;
+    width: 122px;
+    margin: 16px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: var(--dark-blue);
+}
+
+main .main-plans .card-plan.blue {
+    width: 363px;
+    height: 542px;
+}
+
+main .main-plans .card-plan.blue .desc-card .description {
+    color: var(--white);
+}
+
+main .main-plans .card-plan.blue .desc-card .list {
+    color: var(--white);
+}
+
+main .main-plans .card-plan.blue .desc-card button {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
 main .main-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
