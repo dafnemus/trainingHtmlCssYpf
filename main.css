@@ -65,6 +65,10 @@ header nav {
     justify-content: flex-end;
 }
 
+header .nav-desktop {
+    display: none;
+}
+
 header h1 {
     margin: 15px 20px;
     font-size: 1.8rem;
@@ -212,6 +216,10 @@ main .main-plans .card-plan img {
     right: 0;
     width: 160px;
     filter: contrast(0.3);
+}
+
+main .card-plan .desc-card {
+    display: none;
 }
 
 .card-plan h2 {
