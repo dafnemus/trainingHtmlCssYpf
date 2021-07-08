@@ -409,7 +409,11 @@ footer .footer-content {
     gap: 33px;
     margin-bottom: 30px;
 }
-
+.footer-content .contain-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .footer-content .button-log {
     width: 110px;
     height: 36px;

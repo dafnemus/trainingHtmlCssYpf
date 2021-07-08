@@ -1,0 +1,34 @@
+footer .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 50px;
+}
+
+.footer-content .contain-links {
+    display: flex;
+    gap: 60px;
+    align-items: flex-end;
+    padding-bottom: 42px;
+    margin-right: 50px;
+}
+
+.footer-content .link-webs-ypf {
+    margin: 0;
+}
+
+.footer-content .link-webs-ypf img {
+    padding-left: 45px;
+}
+
+.footer-content .link-section-web {
+    margin: 0;
+}
+
+.footer-content .contain-social-media {
+    position: absolute;
+    right: calc(50% - 203px);
+}
+
+.footer-content .contain-social-media .social-media {
+    margin-top: 10px;
+}
