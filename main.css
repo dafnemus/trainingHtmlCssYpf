@@ -351,7 +351,7 @@ main .main-form .background-down {
     display: grid;
     grid-template-columns: 180px auto;
     position: absolute;
-    padding-top: 387px;
+    padding-top: 367px;
 }
 
 main .main-form .background-down .back-2 {
