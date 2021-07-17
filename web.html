@@ -12,13 +12,13 @@
 
 <body>
     <header>
-        <img class="background" src="assets/img/background-header.png" alt="">
-        <img class="background-header-desktop" src="assets/img/back-eader-desktop.svg" alt="">
+        <img class="background" src="assets/img/background-header.png" alt="background-header">
+        <img class="background-header-desktop" src="assets/img/back-eader-desktop.svg" alt="background-header-desktop">
         <div class="contain-nav-logo">
             <img src="assets/img/logo-ypf.svg" alt="logo-ypf">
             <nav class="nav-mobile">
                 <ul>
-                    <li><a href=""><img src="assets/icons/menu.svg" alt=""></a></li>
+                    <li><a href=""><img src="assets/icons/menu.svg" alt="menu"></a></li>
                 </ul>
             </nav>
             <nav class="nav-desktop">
@@ -42,17 +42,17 @@
                 </p>
                 <a class="button-add" href="#contact">Quiero adherirme</a>
             </div>
-        <div class="container-main-images">
-            <div class="contain-images">
-                <img class="point" src="assets/img/point.png" alt="point">
-                <img class="img-curve" src="assets/img/curve.png" alt="curve">
-                <img class="imagen-1" src="assets/img/imagen-1.png" alt="foto-1">
+            <div class="container-main-images">
+                <div class="contain-images-point-curve-deriver">
+                    <img class="point" src="assets/img/point.png" alt="point">
+                    <img class="img-curve" src="assets/img/curve.png" alt="curve">
+                    <img class="image-driver" src="assets/img/imagen-1.png" alt="image-driver">
+                </div>
+                <div class="contain-images-forest-curve">
+                    <img class="image-forest" src="assets/img/imagen-2.jpg" alt="image-forest">
+                    <img class="curve-blue" src="assets/img/curve-blue.png" alt="curve-blue">
+                </div>
             </div>
-            <div class="contain-images-2">
-                <img class="imagen-2" src="assets/img/imagen-2.jpg" alt="foto-2">
-                <img class="curve-blue" src="assets/img/curve-blue.png" alt="curve-blue">
-            </div>
-        </div>
         </div>
         <ul class="contain-social-media">
             <li><a href=""><img src="assets/icons/icon-youtube.svg" alt="icon-youtube"></a></li>
@@ -93,7 +93,7 @@
             </div>
         </section>
         <section class="main-plans">
-            <img src="assets/img/background-plans.png" alt="background-plans">
+            <img src="assets/img/background-plans.png" alt="plans-background">
             <h2 class="title">Nuestros planes</h2>
             <p>Conocé nuestras soluciones adaptadas para cada tipo de flota.</p>
             <div class="contain-card-plans">
@@ -101,19 +101,21 @@
                     <h2>RT Clásico</h2>
                     <img class="curve" src="assets/icons/curve-card-plan.png" alt="curve-card-plan">
                     <div class="desc-card">
-                        <p class="description">Pensado para cubrir las necesidades de abastecimiento, control y administración de flota.</p>
+                        <p class="description">Pensado para cubrir las necesidades de abastecimiento, control y
+                            administración de flota.</p>
                         <p class="list">- Precio diferencial</p>
                         <p class="list">- Plazo de pago</p>
                         <p class="list">- Reportes de consumo</p>
                         <p class="list">- Plataforma de gestión de cuenta</p>
-                        <button>Más información</button>
+                        <button class="plan-button">Más información</button>
                     </div>
                 </div>
                 <div class="card-plan blue">
                     <h2>RT Avanzado</h2>
                     <img class="curve" src="assets/icons/curve-card-plan.png" alt="curve-card-plan">
                     <div class="desc-card">
-                        <p class="description">La solución digital que mejora, organiza y facilita el trabajo de las flotas profesionales.</p>
+                        <p class="description">La solución digital que mejora, organiza y facilita el trabajo de las
+                            flotas profesionales.</p>
                         <p class="list">- Precio diferencial y plazo de pago</p>
                         <p class="list">- Monitoreo total del combustible</p>
                         <p class="list">- Seguimiento de tu flota</p>
@@ -123,7 +125,7 @@
                         <p class="list">- Plataforma de gestión de cuenta</p>
                         <p class="list">- Catedral de monitoreo</p>
                         <p class="list">- Módulo de analítica avanzada</p>
-                        <button>Más información</button>
+                        <button class="plan-button">Más información</button>
                     </div>
                 </div>
                 <div class="card-plan">
@@ -138,7 +140,7 @@
                         <p class="list">- Plataforma de gestión de cuenta</p>
                         <p class="list">- Vencimiento de documentación</p>
                         <p class="list">- Catedral de monitoreo</p>
-                        <button>Más información</button>
+                        <button class="plan-button">Más información</button>
                     </div>
                 </div>
             </div>
@@ -167,7 +169,7 @@
                         <img class="icon-arrow-down" src="assets/icons/arrow-down.svg" alt="arrow-down">
                     </div>
                 </div>
-                <textarea name="cosulta" id="" cols="30" rows="10" placeholder="Consulta del usuario"></textarea>
+                <textarea name="cosulta" cols="30" rows="10" placeholder="Consulta del usuario"></textarea>
                 <div class="contain-catcha-toggle">
                     <div class="toogle">
                         <p>¿Tiene YPF ruta?</p>
@@ -181,44 +183,48 @@
     </main>
     <footer>
         <hr class="line-blue">
-       <div class="footer-content">
-       <div>
-            <img src="assets/img/logo-white-ypf.svg" alt="logo-white-ypf">
-            <div class="text-gray">
-                <p>Consultas: 0810 122 2020</p>
-                <p>Email: soprte@ypfenruta.com</p>
-            </div>  
-       </div>
-        <div class="contain-links">
-            <ul class="link-section-web">
-                <li><a href="">Beneficios</a></li>
-                <li><a href="">Analíticas</a></li>
-                <li><a href="">Planes</a></li>
-                <li><a href="">Preguntas Frecuentes</a></li>
-                <li><a href="">Términos & Condiciones</a></li>
-            </ul>
-            <ul class="link-webs-ypf">
-                <li><a class="text-gray" href="">YPF.COM <img src="assets/icons/arrow-right.svg" alt="arrow-right"></a></li>
-                <li><a class="text-gray" href="">YPF Serviclub <img src="assets/icons/arrow-right.svg" alt="arrow-right"></a></li>
-                <li><a class="text-gray" href="">Fundación YPF <img src="assets/icons/arrow-right.svg" alt="arrow-right"></a></li>
-            </ul>
-        </div>
-        <div class="contain-social-media">
-            <p class="titles-social-media">Nuestras redes sociales</p>
-            <ul class="social-media">
-                <li><a href=""><img src="assets/icons/icon-youtube.svg" alt="icon-youtube"></a></li>
-                <li><a href=""><img src="assets/icons/icon-linkedin.svg" alt="icon-linkedin"></a></li>
-                <li><a href=""><img src="assets/icons/icon-fbk.svg" alt="icon-fbk"></a></li>
-                <li><a href=""><img src="assets/icons/icon-twiter.svg" alt="icon-twiter"></a></li>
-            </ul>
-        </div>
-       <div class="contain-buttons">
-            <a class="button-log" href="">Iniciar Sesión</a>
-            <a class="button-log" href="#contact">Adherirme</a>
-       </div>
+        <div class="footer-content">
+            <div>
+                <img src="assets/img/logo-white-ypf.svg" alt="logo-white-ypf">
+                <div class="text-gray">
+                    <p>Consultas: 0810 122 2020</p>
+                    <p>Email: soprte@ypfenruta.com</p>
+                </div>
+            </div>
+            <div class="contain-links">
+                <ul class="link-section-web">
+                    <li><a href="">Beneficios</a></li>
+                    <li><a href="">Analíticas</a></li>
+                    <li><a href="">Planes</a></li>
+                    <li><a href="">Preguntas Frecuentes</a></li>
+                    <li><a href="">Términos & Condiciones</a></li>
+                </ul>
+                <ul class="link-webs-ypf">
+                    <li><a class="text-gray" href="">YPF.COM <img src="assets/icons/arrow-right.svg"
+                                alt="arrow-right"></a></li>
+                    <li><a class="text-gray" href="">YPF Serviclub <img src="assets/icons/arrow-right.svg"
+                                alt="arrow-right"></a></li>
+                    <li><a class="text-gray" href="">Fundación YPF <img src="assets/icons/arrow-right.svg"
+                                alt="arrow-right"></a></li>
+                </ul>
+            </div>
+            <div class="contain-social-media">
+                <p class="titles-social-media">Nuestras redes sociales</p>
+                <ul class="social-media">
+                    <li><a href=""><img src="assets/icons/icon-youtube.svg" alt="icon-youtube"></a></li>
+                    <li><a href=""><img src="assets/icons/icon-linkedin.svg" alt="icon-linkedin"></a></li>
+                    <li><a href=""><img src="assets/icons/icon-fbk.svg" alt="icon-fbk"></a></li>
+                    <li><a href=""><img src="assets/icons/icon-twiter.svg" alt="icon-twiter"></a></li>
+                </ul>
+            </div>
+            <div class="contain-buttons">
+                <a class="button-log" href="">Iniciar Sesión</a>
+                <a class="button-log" href="#contact">Adherirme</a>
+            </div>
         </div>
         <hr class="line-white">
         <p class="copyrigth">YPF 2020 | TÉRMINOS Y CONDICIONES | EXTRANETS | PROVEEDORES | XOM. "A" 5460 BCRA</p>
     </footer>
 </body>
+
 </html>

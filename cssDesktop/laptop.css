@@ -25,7 +25,6 @@ header .nav-desktop {
 header .nav-desktop ul {
     display: flex;
     gap: 25px;
-
 }
 
 header .nav-desktop ul li a {
@@ -59,43 +58,43 @@ header .contain-portada {
 }
 
 header .contain-portada .text-portada {
-    margin: 76px 0px 0 73px;
+    margin: 76px 0 0 73px;
 }
 
 header .container-main-images {
     margin-left: 30px;
 }
 
-header .contain-images {
+header .contain-images-point-curve-deriver {
     margin: 0;
 }
 
-header .contain-images .point {
+header .contain-images-point-curve-deriver .point {
     width: 49.2px;
     height: 49.2px;
     top: calc(50% - 146px);
 }
 
-header .contain-images .imagen-1 {
+header .contain-images-point-curve-deriver .image-driver {
     height: 364px;
     width: 498px;
     bottom: calc(50% - 137px);
-    left: calc(50% - -74px);
+    left: calc(50% + 74px);
 }
 
-header .contain-images .img-curve {
+header .contain-images-point-curve-deriver .img-curve {
     height: 192px;
     width: 127px
 }
 
-header .contain-images-2 .imagen-2 {
+header .contain-images-forest-curve .imagen-2 {
     height: 352px;
     width: 336px;
     position: relative;
     right: 34px;
 }
 
-header .contain-images-2 .curve-blue {
+header .contain-images-forest-curve .curve-blue {
     height: 65px;
     width: 118px;
     top: calc(50% - 35px);
@@ -175,12 +174,11 @@ main .card-plan .desc-card .description {
 main .card-plan .desc-card .list {
     font-size: 0.75rem;
     line-height: 1.25rem;
-    margin: 0;
-    margin-left: 49px;
+    margin: 0 0 0 49px;
     color: var(--soft-black);
 }
 
-main .card-plan .desc-card button {
+main .card-plan .desc-card .plan-button {
     padding: 5px;
     width: 122px;
     margin: 16px;
@@ -204,7 +202,7 @@ main .main-plans .card-plan.blue .desc-card .list {
     color: var(--white);
 }
 
-main .main-plans .card-plan.blue .desc-card button {
+main .main-plans .card-plan.blue .desc-card .plan-button {
     background-color: var(--white);
     color: var(--dark-blue);
 }

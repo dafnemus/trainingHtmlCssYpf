@@ -104,45 +104,45 @@ header .container-main-images {
     margin-top: 70px;
 }
 
-header .contain-images {
+header .contain-images-point-curve-deriver {
     display: grid;
     grid-template-columns: 20px 68px;
     margin: 0 20px;
 }
 
-header .contain-images .point {
+header .contain-images-point-curve-deriver .point {
     position: relative;
     top: calc(50% - 68px);
 }
 
-header .contain-images .imagen-1 {
+header .contain-images-point-curve-deriver .imagen-1 {
     position: absolute;
     left: calc(50% - 72px);
     bottom: calc(50% - 218px);
     height: 196px;
 }
 
-header .contain-images-2 {
+header .contain-images-forest-curve {
     display: grid;
     grid-template-columns: 214px 77px auto 21px;
     margin: 0 20px;
 
 }
 
-header .contain-images-2 .curve-blue {
+header .contain-images-forest-curve .curve-blue {
     position: relative;
     top: calc(50% - 20px);
 
 }
 
-header .contain-images-2 .imagen-2 {
+header .contain-images-forest-curve .image-forest {
     z-index: 1;
     height: 200px;
 }
 
 header .contain-social-media {
     display: flex;
-    margin: 56px 20px 40px 20px;
+    margin: 56px 20px 40px;
     gap: 10px;
 }
 
