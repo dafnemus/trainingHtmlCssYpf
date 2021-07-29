@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --blue: #0451DD;
+    --black: #000;
+    --black-2: #252525;
+    --soft-black: #3C3C3C;
+    --ligth-blue: #00ADEE;
+    --dark-blue: #00407B;
+    --gray: #C4C4C4;
+    --gray-2: #AFAFAF;
+    --gray-footer: #455660;
+    --gray-text-footer: #808080;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    filter: url('./assets/img/background-header.png');
+    background-repeat: no-repeat;
+    background-size: 359px 756px;
+    background-color: var(--black);
+    height: auto;
+    width: 100%;
+    color: var(--white);
+}
+
+header .background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+}
+
+header .background-header-desktop {
+    display: none;
+}
+
+header .contain-nav-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .nav-desktop {
+    display: none;
+}
+
+header h1 {
+    margin: 15px 20px;
+    font-size: 1.8rem;
+}
+
+header p {
+    line-height: 1.4rem;
+    padding-right: 27px;
+    margin: 27px 20px 67px;
+}
+
+header .button-add {
+    margin: 25px 20px;
+    color: var(--white);
+    background-color: var(--blue);
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 45px;
+}
+
+header .contain-portada {
+    display: flex;
+    flex-direction: column;
+}
+
+header .container-main-images {
+    margin-top: 70px;
+}
+
+header .contain-images-point-curve-deriver {
+    display: grid;
+    grid-template-columns: 20px 68px;
+    margin: 0 20px;
+}
+
+header .contain-images-point-curve-deriver .point {
+    position: relative;
+    top: calc(50% - 68px);
+}
+
+header .contain-images-point-curve-deriver .imagen-1 {
+    position: absolute;
+    left: calc(50% - 72px);
+    bottom: calc(50% - 218px);
+    height: 196px;
+}
+
+header .contain-images-forest-curve {
+    display: grid;
+    grid-template-columns: 214px 77px auto 21px;
+    margin: 0 20px;
+
+}
+
+header .contain-images-forest-curve .curve-blue {
+    position: relative;
+    top: calc(50% - 20px);
+
+}
+
+header .contain-images-forest-curve .image-forest {
+    z-index: 1;
+    height: 200px;
+}
+
+header .contain-social-media {
+    display: flex;
+    margin: 56px 20px 40px;
+    gap: 10px;
+}
+
+header .contain-social-media img {
+    padding: 10px;
+    height: 40px;
+}
+
+main .main-benefits {
+    margin: 60px;
+    color: var(--soft-black)
+}
+
+main .main-benefits h2 {
+    font-size: 2.2rem;
+}
+
+main .main-benefits .benefit {
+    margin: 20px 0;
+    padding: 13px;
+    display: grid;
+    gap: 12px;
+}
+
+main .main-benefits .benefit h3 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+
+main .main-benefits .benefit p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+main .main-plans {
+    overflow: hidden;
+}
+
+main .main-plans img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.05;
+    height: 1000px;
+    width: 100%;
+    right: 0;
+}
+
+main .main-plans .title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    margin: 65px 30px 0;
+}
+
+main .main-plans p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 10px 30px;
+    color: var(--soft-black);
+}
+
+main .main-plans .contain-card-plans {
+    margin: 60px 0;
+    position: relative;
+}
+
+main .main-plans .card-plan {
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+    margin: 20px 30px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 1px 1px 10px var(--gray-2);
+    position: relative;
+}
+
+main .main-plans .card-plan .curve {
+    position: absolute;
+    z-index: 1;
+    opacity: 2;
+    right: 0;
+    width: 160px;
+    height: 100px;
+    filter: contrast(0.3);
+}
+
+main .card-plan .desc-card {
+    display: none;
+}
+
+.card-plan h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: start;
+    color: var(--dark-blue);
+}
+
+main .main-plans .card-plan.blue {
+    background-color: var(--dark-blue);
+    box-shadow: 2px 2px 10px var(--ligth-blue);
+}
+
+main .main-plans .card-plan.blue h2 {
+    color: var(--ligth-blue);
+}
+
+main .main-form {
+    background-color: var(--black);
+    color: var(--white);
+    overflow: hidden;
+}
+
+main .main-form .back-image-1 {
+    position: absolute;
+    margin-left: 22px;
+}
+
+main .main-form h2 {
+    font-size: 2.8rem;
+    margin: 143px 22px 10px;
+}
+
+main .main-form p {
+    margin: 0 22px 50px;
+}
+
+main .main-form .form-contact {
+    margin: 0 22px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+main .main-form .form-contact input {
+    width: 310px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+main .form-contact input::placeholder {
+    color: var(--gray-2);
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+main .dropdown {
+    position: relative;
+}
+
+main .dropdown .icon-arrow-down {
+    position: absolute;
+    right: calc(10% - 5px);
+    color: var(--gray-2);
+    top: 5;
+    top: calc(50% - 5px);
+}
+
+main .form-contact textarea {
+    width: 310px;
+    height: 130px;
+    border-radius: 4px;
+}
+
+main .form-contact textarea::placeholder {
+    color: var(--gray-2);
+    padding: 50px 20px;
+    font-size: 1rem;
+}
+
+main .form-contact .toogle{
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    align-items: center;
+}
+
+main .form-contact .toogle p {
+    margin: 30px 0;
+}
+
+main .form-contact .captcha {
+    background-color: var(--gray-2);
+    width: 285px;
+    height: 76px;
+    margin: 0;
+    padding: 30px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+main .form-contact .button-form {
+    width: 185px;
+    height: 45px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+main .main-form .background-down {
+    display: grid;
+    grid-template-columns: 180px auto;
+    position: absolute;
+    padding-top: 367px;
+}
+
+main .main-form .background-down .back-2 {
+    height: 263px;
+    width: 180px;
+    padding-left: 27px;
+    margin-top: 28px;
+}
+
+main .main-form .background-down .back-3 {
+    height: 431px;
+    width: 180px;
+}
+
+footer {
+    height: auto;
+    background-color: var(--black-2);
+}
+
+footer, footer a {
+    color: var(--white);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+footer .line-blue {
+    height: 8px;
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+footer .footer-content {
+    margin: 80px 80px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer-content .text-gray {
+    color: var(--gray-text-footer);
+}
+
+.footer-content .link-section-web {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.footer-content .link-webs-ypf {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-webs-ypf a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .titles-social-media {
+    font-weight: bold;
+}
+
+.footer-content .social-media {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-bottom: 30px;
+}
+.footer-content .contain-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-content .button-log {
+    width: 110px;
+    height: 36px;
+    font-weight: bold;
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 5px;
+}
+
+footer .line-white {
+    height: 3px;
+}
+
+footer .copyrigth {
+    height: 75px;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 46px 10px 0;
+}
